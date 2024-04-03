@@ -1,0 +1,88 @@
+.container {
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 60px;
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+.card {
+    border-radius: 30px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 142px;
+    width: 661px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 56px 65px;
+}
+
+@media (max-width: 991px) {
+    .card {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        padding: 20px;
+    }
+}
+
+.icon {
+    width: 17px;
+    fill: #000;
+    align-self: start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #000;
+    font: 600 35px Inter, sans-serif;
+}
+
+.description {
+    color: #000;
+    align-self: center;
+    margin-top: 29px;
+    font: 300 15px Inter, sans-serif;
+}
+
+.otp-inputs {
+    display: flex;
+    margin-top: 24px;
+    gap: 7px;
+}
+
+.otp-input {
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    width: 50px;
+    height: 50px;
+}
+
+.button {
+    justify-content: center;
+    border-radius: 30px;
+    border: 0;
+    background-color: #66c9ff;
+    align-self: center;
+    margin-top: 23px;
+    color: #fff;
+    padding: 10px 30px;
+    font: 600 20px Inter, sans-serif;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .button {
+        padding: 10px 20px;
+    }
+}
